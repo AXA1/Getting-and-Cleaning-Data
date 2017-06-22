@@ -2,8 +2,8 @@
 This code book describes the variables, the data and transformations performed to clean up the data.
 
 In the script run_analysis.R:
-+	First, after importing all the variables and datasets, measurements are labelled with appropriate names derived from the features vector. Training and test data are then merged to create a unique dataset
-+	Only the measurements on mean and standard deviation for each measurement are extracted and the activity labels are added (to that end, columns whose names contain mean or std characters are extracted)
++	First, after importing all the variables and datasets, measurements are labelled with appropriate names derived from the _features_ vector. Training and test data are then merged to create a unique dataset
++	Only the measurements on mean and standard deviation for each measurement are extracted and the activity labels are added (to that end, columns whose names contain _mean_ or _std_ characters are extracted)
 +	Finally, a second, independent tidy data set is created with the average of each variable for each activity and each subject (panel of 30 subjects and 6 possible activities)
 
 #### Data Set Information
