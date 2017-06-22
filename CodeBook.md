@@ -70,9 +70,9 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 + tBodyGyro
 
 #### Activity Labels
-•	`WALKING`: value 1 
-•	`WALKING_UPSTAIRS`: value 2 
-•	`WALKING_DOWNSTAIRS`: value 3 
-•	`SITTING`: value 4 
-•	`STANDING`: value 5 
-•	`LAYING`: value 6 
+•	`WALKING`: value 1  
+•	`WALKING_UPSTAIRS`: value 2  
+•	`WALKING_DOWNSTAIRS`: value 3  
+•	`SITTING`: value 4  
+•	`STANDING`: value 5  
+•	`LAYING`: value 6   
