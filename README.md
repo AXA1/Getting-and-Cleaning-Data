@@ -1,7 +1,7 @@
-## Getting and Cleaning Data - Course Project
+# Getting and Cleaning Data - Course Project
 This repo contains the scripts for the assignment of the Data Science's track course "Getting and Cleaning data" (Coursera), and explains how all of the scripts work and how they are connected.
 
-# Steps
+### Steps
 The aim of the assignment is to create one R script called run_analysis.R that does the following:
 1)	Merges the training and the test sets to create one data set.
 2)	Extracts only the measurements on the mean and standard deviation for each measurement.
@@ -13,7 +13,7 @@ The aim of the assignment is to create one R script called run_analysis.R that d
 `run_analysis.R` hosts the required codes;
 `TidyDataSet.txt` represents the output of the 5th step detailed above. 
 
-# Files
+### Files
 + `features_info.txt`: Shows information about the variables used on the feature vector
 + `features.txt`: List of all features
 + `activity_labels.txt`: Links the class labels with their activity name
