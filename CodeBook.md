@@ -2,9 +2,9 @@
 This code book describes the variables, the data and transformations performed to clean up the data.
 
 In the script run_analysis.R:
-•	First, after importing all the variables and datasets, measurements are labelled with appropriate names derived from the features vector. Training and test data are then merged to create a unique dataset
-•	Only the measurements on mean and standard deviation for each measurement are extracted and the activity labels are added (to that end, columns whose names contain mean or std characters are extracted)
-•	Finally, a second, independent tidy data set is created with the average of each variable for each activity and each subject (panel of 30 subjects and 6 possible activities)
++	First, after importing all the variables and datasets, measurements are labelled with appropriate names derived from the features vector. Training and test data are then merged to create a unique dataset
++	Only the measurements on mean and standard deviation for each measurement are extracted and the activity labels are added (to that end, columns whose names contain mean or std characters are extracted)
++	Finally, a second, independent tidy data set is created with the average of each variable for each activity and each subject (panel of 30 subjects and 6 possible activities)
 
 #### Data Set Information
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. 
@@ -70,9 +70,9 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 + tBodyGyro
 
 #### Activity Labels
-•	`WALKING`: value 1  
-•	`WALKING_UPSTAIRS`: value 2  
-•	`WALKING_DOWNSTAIRS`: value 3  
-•	`SITTING`: value 4  
-•	`STANDING`: value 5  
-•	`LAYING`: value 6   
++	`WALKING`: value 1  
++	`WALKING_UPSTAIRS`: value 2  
++	`WALKING_DOWNSTAIRS`: value 3  
++	`SITTING`: value 4  
++	`STANDING`: value 5  
++	`LAYING`: value 6   
