@@ -10,8 +10,8 @@ The aim of the assignment is to create one R script called run_analysis.R that d
 5)	From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 `CodeBook.md` describes the variables, the data, and any transformations or work that was performed to clean up the data;
-`run_analysis.R` hosts the required codes;
-`TidyDataSet.txt` represents the output of the 5th step detailed above. 
+`run_analysis.R` hosts the required codes;  
+`TidyDataSet.txt` represents the output of the 5th step detailed above.  
 
 ### Files
 + `features_info.txt`: Shows information about the variables used on the feature vector
